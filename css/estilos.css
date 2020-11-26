@@ -24,6 +24,7 @@ body{
     overflow: hidden;
     margin: auto;
     padding: 60px 0;
+    user-select: none;
 }
 
 /*LA PORTADA CON GRADIENTE*/
@@ -40,7 +41,7 @@ header{
 .head{
 	text-align: center;
     padding: 0;
-    height: 100%;
+    height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -325,7 +326,8 @@ footer{
 	}
 	
 	.checklist-servicio{
-		width: 80%;
+        width: 80%;
+        margin: 30px;
 	}
 	
 	.service{
@@ -380,7 +382,7 @@ footer{
 	
 	.titulo{
 		font-size: 30px;
-	}
+    }
 	
 	.subtitulo{
 		font-size: 30px;
@@ -404,8 +406,19 @@ footer{
 }
 
 
+@media screen and (max-width:1025px){	
+	.checklist-servicio{
+        margin: 30px;
+        width: 60%;
+    }
+}
 
 
+@media screen and (max-width:1050px){	
+	.checklist-servicio{
+        margin: 30px;
+    }
+}
 
 
 
