@@ -7,6 +7,9 @@
     box-sizing: border-box;
 }
 
+img{
+    border-radius: 20px;
+}
 /*SEUDOCLASE PARA EL SCROLL Y LOS LINKS DE LA PAGINA*/
 :root{
     scroll-behavior: smooth;
@@ -30,7 +33,7 @@ body{
 /*LA PORTADA CON GRADIENTE*/
 header{
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(161, 140, 209, 0.4) 0%, rgba(251, 194, 235, 0.4) 100%), url(../img/imagen17.jpeg);
+    background-image: linear-gradient(to top, rgba(161, 140, 209, 0.4) 0%, rgba(251, 194, 235, 0.4) 100%), url(../img/education.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -41,7 +44,7 @@ header{
 .head{
 	text-align: center;
     padding: 0;
-    height: 1000px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -311,114 +314,103 @@ footer{
     margin-bottom: 60px;
 }
 
-@media screen and (max-width:800px){
-	.menu-navegacion{
-		width: 50vw;
-	}
-	
-	.titulo{
-		font-size: 40px;
-	}
-	
-	.contenedor-servicio img{
-		width: 80%;
-		margin-bottom: 40px;
-	}
-	
-	.checklist-servicio{
+
+@media screen and (max-width: 800px){
+    .menu-navegacion{
+        width: 50vw;
+    }
+
+    .titulo{
+        font-size: 40px;
+    }
+
+    .contenedor-servicio img{
         width: 80%;
-        margin: 30px;
-	}
-	
-	.service{
-		margin-bottom: 30px;
-	}
-	
-	.agregar-imagen{
-		width: 80%;
-	}
-	
-	.img-galeria{
-		width: 45%;
-	}
-	
-	.cont-expert{
-		width: 80%;
-	}
-	
-	.footer-content{
-		justify-content: center;
-	}
-	
-	.social-media{
-		width: 80%;
-		justify-content: space-evenly;
-	}
-	
-	.social-media-icon{
-		margin-left: 0;
-	}
-	
-	.social-media i{
-		margin-left: 0;
-	}
-	
-	.contact-us{
-		text-align: center;
-		width: 80%;
-		margin-bottom: 40px;
-	}
-}
-
-@media screen and (max-width:500px){
-	.menu-navegacion{
-		width: 65vw;
-	}
-	
-	.hamburguer{
-		top: 20px;
-		right: 20px;
-	}
-	
-	.titulo{
-		font-size: 30px;
+        margin-bottom: 40px;
     }
-	
-	.subtitulo{
-		font-size: 30px;
-	}
-	
-	.agregar-imagen{
-		width: 95%;
-	}
-	
-	.img-galeria{
-		width: 95%;
-	}
-	
-	.social-media{
-		width: 100%;
-	}
-	
-	.contact-us{
-		width: 90%;
-	}
-}
-
-
-@media screen and (max-width:1025px){	
-	.checklist-servicio{
-        margin: 30px;
-        width: 60%;
+    
+    .checklist-servicio{
+        width: 80%;
     }
-}
 
-
-@media screen and (max-width:1050px){	
-	.checklist-servicio{
-        margin: 30px;
+    .service{
+        margin-bottom: 30px;
     }
+
+    .img-galeria{
+        width: 45%;
+    }
+    
+    .agregarImagen{
+        width: 80%;
+    }
+
+    
+    .cont-expert{
+        width: 80%;
+    }
+    
+    .footer-content{
+        justify-content: center;
+    }
+
+    .social-media{
+        width: 80%;
+        justify-content: space-evenly;
+    }
+
+    .social-media-icon{
+        margin-left: 0;
+    }
+
+    .contact-us{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    
 }
 
 
+@media screen and (max-width: 500px){
+    .menu-navegacion{
+        width: 65vw;
+    }
 
+    .hamburguer{
+        top: 20px;
+        right: 20px;
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+
+    .subtitulo{
+        font-size: 30px;
+    }
+
+    .img-galeria{
+        width: 95%;
+    }
+    
+    .agregar-imagen{
+        width: 90%;
+    }
+
+    .social-media{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .social-media-icon{
+        margin-left: 0;
+    }
+
+    .contact-us{
+        text-align: center;
+        width: 95%;
+        margin-bottom: 40px;
+    }
+    
+}
