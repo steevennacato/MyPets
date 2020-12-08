@@ -8,7 +8,7 @@
 }
 
 img{
-    border-radius: 20px;
+    border-radius: 15px;
 }
 /*SEUDOCLASE PARA EL SCROLL Y LOS LINKS DE LA PAGINA*/
 :root{
@@ -33,7 +33,7 @@ body{
 /*LA PORTADA CON GRADIENTE*/
 header{
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(161, 140, 209, 0.4) 0%, rgba(251, 194, 235, 0.4) 100%), url(../img/education.jpg);
+    background-image: linear-gradient(to top, rgba(161, 140, 209, 0.4) 0%, rgba(251, 194, 235, 0.4) 100%), url(../img/imagen17.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
